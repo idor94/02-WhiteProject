@@ -1,0 +1,146 @@
+:root {
+    --main-color: rgb(6, 57, 108);
+    --font-primary: 'Electrolize', sans-serif;
+    --font-other: 'Lato', sans-serif;
+}
+.top-bg{
+    background: linear-gradient(rgba(6, 57, 105, 0.6) 50%, rgba(6, 57, 105, 0.6) 50%) ,url(./media/header.jpg) ;
+    background-size: cover;
+    background-position: center;
+    
+}
+.pl-bg{
+    height: 100%;
+    background: linear-gradient(rgba(6, 57, 105, 0.7) 50%, rgba(6, 57, 105, 0.7) 50%) ,url(./media/power-plant-4712830_1280.jpg) ;
+    background-size: cover;
+    background-position: 30% 0%;
+}
+.font-01{
+    font-family: var(--font-primary);
+}
+.font-02{
+    font-family: var(--font-other);
+}
+.text-main-color{
+    color: var(--main-color) ;
+}
+.bg-main-color{
+    background-color: var(--main-color);
+}
+.logo{
+    width: 40px;
+}
+.quote::before{
+    position: absolute;
+    font-size: 25px;
+    top: -10px;
+    left: -30px;
+    color: var(--main-color);
+}
+.card-blue{
+    position: relative;
+    bottom: 70px;
+    left:40px;
+    height: 100%;
+}
+.card-white{
+    z-index:99;
+}
+.btn-desc{
+    color: #fff;
+    background-color:var(--main-color);
+    border-color:var(--main-color);
+}
+
+.card-random{
+    background: url(https://picsum.photos/id/0/800?blackscale);
+    background-size: cover;
+    max-width: 455px;
+    min-height: 180px;
+    z-index: 100;
+}
+.card-random1{
+    background: url(https://picsum.photos/id/1026/800?blackscale);
+    background-size: cover;
+    max-width: 455px;
+    min-height: 180px;
+    z-index: 100;
+}
+.card-random2{
+    background: url(https://picsum.photos/id/1062/800?blackscale);
+    background-size: cover;
+    max-width: 455px;
+    min-height: 180px;
+    z-index: 100;
+}
+.card-random3{
+    background: url(https://picsum.photos/id/1080/800?blackscale);
+    background-size: cover;
+    max-width: 455px;
+    min-height: 180px;
+    z-index: 100;
+}
+
+.card-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -20px;
+    left: -30px;
+    background: linear-gradient(120deg, rgba(6, 57, 105,0.3) 20%, rgba(6, 57, 105,0) 50%);
+}
+
+.over-somestuff{
+    position: relative;
+    top: -120px;
+}
+
+.card-sun{
+    background: linear-gradient(rgba(6, 57, 105,0) 10%,rgba(6, 57, 105,1)100%), url(./media/sun.png);
+    background-size: cover;
+}
+.card-wind{
+    background: linear-gradient(rgba(6, 57, 105,0) 10%,rgba(6, 57, 105,1)100%), url(./media/wind.png);
+    background-size: cover;
+}
+.card-wave{
+    background: linear-gradient(rgba(6, 57, 105,0) 10%,rgba(6, 57, 105,1)100%), url(./media/wave.png);
+    background-size: cover;
+}
+.card-gas{
+    background: linear-gradient(rgba(6, 57, 105,0) 10%,rgba(6, 57, 105,1)100%), url(./media/gas.png);
+    background-size: cover;
+}
+.card-oil{
+    background: linear-gradient(rgba(6, 57, 105,0) 10%,rgba(6, 57, 105,1)100%), url(./media/oil.png);
+    background-size: cover;
+}
+.card-atom{
+    background: linear-gradient(rgba(6, 57, 105,0) 10%,rgba(6, 57, 105,1)100%), url(./media/nuclear.png);
+    background-size: cover;
+}
+.loading{
+    background-color: transparent;
+    height: 12px ;
+}
+.blue-footer{
+    top:-50px;
+}
+.footer-row{
+    height: 450px;
+}
+
+@media screen and (max-width:768px) {
+
+    .card-blue{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        border:0px !important;
+        height: 100%;
+    }
+    .blue-footer{
+        top:0px;
+        padding-bottom: 30px;
+    }
+}
